@@ -1,40 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<style>
-
-    body{
-
- background-image: url('./h.jpg');
- background-repeat: no-repeat;
- justify-content: center;
- background-size: cover;
-
-
-    }
-</style>
+    <style>
+        body {
+            background-image: url('./h.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
 </head>
+
 <body>
- <img src="./2.gif" alt="cloud"/>
- <script>
+    <img src="./2.gif" id="cloud" />
+    <script>
+        var elem = document.querySelector('#cloud');
 
-    var elem = document.querySelector('#cloud');
-    elem.animate([
-        {transform:'translate(0.700px)'},
-        {transform:'translate(50px.700px)'},
-        {transform:'translate(0.700)'}
-    
-    
-    ],{
-    
-    duration:2000,
-    iterations:Infinity
-    
-    })
-    
+        var animatedElem = elem.animate([
+            { transform: 'translate(0,20px)' },
+            { transform: 'translate(550px,80px)' },
+            { transform: 'translate(80vw,20px)' },
+            { transform: 'translate(550px,80px)' },
+            { transform: 'translate(0,20px)' },
+
+        ], {
+            duration: 15000,
+            iterations: Infinity
+        })
+
+        document.addEventListener("mousedown", ()=>{
+            animatedElem.pause();
+        })
+
+        document.addEventListener("mouseup", ()=>{
+            animatedElem.play();
+        })
     </script>
-
 </body>
+
+</html>
