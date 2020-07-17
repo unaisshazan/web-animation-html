@@ -1,7 +1,7 @@
 var CloudElem = document.getElementById("cloud-div")
 var animatedElem = CloudElem.animate([
-    { transform: 'translate(-1100px,0)' },
-    { transform: 'translate(800px,0)' },
+    { transform: 'translate(1100px,0)' },
+    { transform: 'translate(-1400px,0)' },
 
 ], {
     duration: 5000,
