@@ -5,7 +5,8 @@ var animatedElem = CloudElem.animate([
 
 ], {
     duration: 5000,
-    iterations: Infinity
+    iterations: Infinity,
+    playbackRate:-4,
 })
 
 document.addE
