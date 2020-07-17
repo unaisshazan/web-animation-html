@@ -34,3 +34,4 @@ var birdAnimation = birdElem.animate([
     iterations: Infinity,
     playbackRate:-4,
 })
+
