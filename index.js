@@ -12,6 +12,9 @@ var animatedElem = CloudElem.animate([
 var planeElem = document.getElementById('plane-div')
 var planeAnimation = planeElem.animate([
     { transform: 'translate(0,0)' },
+    { transform: 'translate(600px,-100px)' },
+    { transform: 'translate(600px,-200px)' },
+    { transform: 'translate(600px,-300px)' },
     { transform: 'translate(600px,-500px)' },
     { transform: 'translate(2000px,-100%)' },
     
@@ -25,8 +28,8 @@ var planeAnimation = planeElem.animate([
 var birdElem = document.getElementById('bird-image')
 var birdAnimation = birdElem.animate([
     { transform: 'translate(0,0)' },
-    { transform: 'translate(100%,0)' },
-    { transform: 'translate(1000px,0)' },
+    { transform: 'translate(80%,0)' },
+    { transform: 'translate(750px,0)' },
     
 
 ], {
@@ -37,8 +40,8 @@ var birdAnimation = birdElem.animate([
 var birdElem = document.getElementById('bird-image2')
 var birdAnimation = birdElem.animate([
     { transform: 'translate(0,0)' },
-    { transform: 'translate(100,0)' },
-    { transform: 'translate(1000px,0)' },
+    { transform: 'translate(80%,0)' },
+    { transform: 'translate(750px,0)' },
     
 
 ], {
