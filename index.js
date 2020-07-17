@@ -9,13 +9,13 @@ var animatedElem = CloudElem.animate([
     playbackRate:-4,
 })
 
-var planeElem =document.getElementById("plan-div")
+var planeElem = document.getElementById('plane-div')
 var planeAnimation = planeElem.animate([
     { transform: 'translate(0,0)' },
-    { transform: 'translate(600px,0)' },
+    { transform: 'translate(600px,0)' }
 
 ], {
-    duration: 5000,
+    duration: 3000,
     iterations: Infinity,
     playbackRate:-4,
 })
