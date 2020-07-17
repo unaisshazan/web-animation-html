@@ -34,4 +34,16 @@ var birdAnimation = birdElem.animate([
     iterations: Infinity,
     playbackRate:-4,
 })
+var birdElem = document.getElementById('bird-image2')
+var birdAnimation = birdElem.animate([
+    { transform: 'translate(0,0)' },
+    { transform: 'translate(100,0)' },
+    { transform: 'translate(1000px,0)' },
+    
+
+], {
+    duration: 3000,
+    iterations: Infinity,
+    playbackRate:-4,
+})
 
