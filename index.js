@@ -40,7 +40,7 @@ var birdAnimation = birdElem.animate([
 var birdElem = document.getElementById('bird-image2')
 var birdAnimation = birdElem.animate([
     { transform: 'translate(0,0)' },
-    { transform: 'translate(80%,0)' },
+    { transform: 'translate(80%,0)'  },
     { transform: 'translate(750px,0)' },
     
 
